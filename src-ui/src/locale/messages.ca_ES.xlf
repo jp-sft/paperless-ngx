@@ -785,7 +785,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
-        <target state="needs-translation">System Status</target>
+        <target state="translated">Estat del sistema</target>
       </trans-unit>
       <trans-unit id="4798013226763881638" datatype="html">
         <source>Open Django Admin</source>
@@ -1245,7 +1245,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">261</context>
         </context-group>
-        <target state="translated">Edita permissos per defecte</target>
+        <target state="translated">Edita permisos per defecte</target>
       </trans-unit>
       <trans-unit id="3728984448750213892" datatype="html">
         <source>Edit permissions also grant viewing permissions</source>
@@ -2853,7 +2853,7 @@
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <target state="needs-translation">Documents:</target>
+        <target state="translated">Documents:</target>
       </trans-unit>
       <trans-unit id="7508164375697837821" datatype="html">
         <source>Use metadata from:</source>
@@ -2861,7 +2861,7 @@
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
-        <target state="needs-translation">Use metadata from:</target>
+        <target state="translated">Utilitzeu metadades de:</target>
       </trans-unit>
       <trans-unit id="2020403212524346652" datatype="html">
         <source>Regenerate all metadata</source>
@@ -2869,7 +2869,7 @@
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
-        <target state="needs-translation">Regenerate all metadata</target>
+        <target state="translated">Regenerar totes les metadades</target>
       </trans-unit>
       <trans-unit id="5138283234724909648" datatype="html">
         <source>Note that only PDFs will be included.</source>
@@ -2877,7 +2877,7 @@
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
-        <target state="needs-translation">Note that only PDFs will be included.</target>
+        <target state="translated">Tingues en compte que només els PDFs seràn inclosos.</target>
       </trans-unit>
       <trans-unit id="8157388568390631653" datatype="html">
         <source>Note that only PDFs will be rotated.</source>
@@ -2885,7 +2885,7 @@
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/rotate-confirm-dialog/rotate-confirm-dialog.component.html</context>
           <context context-type="linenumber">35</context>
         </context-group>
-        <target state="needs-translation">Note that only PDFs will be rotated.</target>
+        <target state="translated">Tingues en compte que només els PDFs seràn girats.</target>
       </trans-unit>
       <trans-unit id="1407560924967345762" datatype="html">
         <source>Page</source>
@@ -2913,7 +2913,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">7,8</context>
         </context-group>
-        <target state="needs-translation">of <x id="INTERPOLATION" equiv-text="{{totalPages}}"/></target>
+        <target state="translated">de <x id="INTERPOLATION" equiv-text="{{totalPages}}"/></target>
       </trans-unit>
       <trans-unit id="6567555383934959967" datatype="html">
         <source>Add Split</source>
@@ -2921,7 +2921,7 @@
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/split-confirm-dialog/split-confirm-dialog.component.html</context>
           <context context-type="linenumber">28</context>
         </context-group>
-        <target state="needs-translation">Add Split</target>
+        <target state="translated">Afegeix Divisió</target>
       </trans-unit>
       <trans-unit id="3972154626835212608" datatype="html">
         <source>Create New Field</source>
@@ -4125,7 +4125,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">216</context>
         </context-group>
-        <target state="needs-translation">Remove tags</target>
+        <target state="translated">Elimina etiquetes</target>
       </trans-unit>
       <trans-unit id="7890599006071681081" datatype="html">
         <source>Remove all</source>
@@ -4157,7 +4157,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">254</context>
         </context-group>
-        <target state="needs-translation">Remove all</target>
+        <target state="translated">Eliminar tot</target>
       </trans-unit>
       <trans-unit id="8636414563726517994" datatype="html">
         <source>Remove correspondents</source>
@@ -4165,7 +4165,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">222</context>
         </context-group>
-        <target state="needs-translation">Remove correspondents</target>
+        <target state="translated">Elimina corresponsals</target>
       </trans-unit>
       <trans-unit id="5305293055593064952" datatype="html">
         <source>Remove document types</source>
@@ -4173,7 +4173,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">228</context>
         </context-group>
-        <target state="needs-translation">Remove document types</target>
+        <target state="translated">Elimina tipus de documents</target>
       </trans-unit>
       <trans-unit id="2400388879708187" datatype="html">
         <source>Remove storage paths</source>
@@ -4181,7 +4181,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">234</context>
         </context-group>
-        <target state="needs-translation">Remove storage paths</target>
+        <target state="translated">Elimina rutes d'emmagatzematge</target>
       </trans-unit>
       <trans-unit id="4324304327041955720" datatype="html">
         <source>Remove custom fields</source>
@@ -4189,7 +4189,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">240</context>
         </context-group>
-        <target state="needs-translation">Remove custom fields</target>
+        <target state="translated">Elimina camps personalitzats</target>
       </trans-unit>
       <trans-unit id="8367536502602515064" datatype="html">
         <source>Remove owners</source>
@@ -4197,7 +4197,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">247</context>
         </context-group>
-        <target state="needs-translation">Remove owners</target>
+        <target state="translated">Elimina propietaris</target>
       </trans-unit>
       <trans-unit id="3393772184866313281" datatype="html">
         <source>Remove permissions</source>
@@ -4205,7 +4205,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">253</context>
         </context-group>
-        <target state="needs-translation">Remove permissions</target>
+        <target state="translated">Elimina permisos</target>
       </trans-unit>
       <trans-unit id="3145629643370481114" datatype="html">
         <source>View permissions</source>
@@ -4213,7 +4213,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">256</context>
         </context-group>
-        <target state="needs-translation">View permissions</target>
+        <target state="translated">Veure permisos</target>
       </trans-unit>
       <trans-unit id="1946660694635960249" datatype="html">
         <source>Edit permissions</source>
@@ -4221,7 +4221,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">275</context>
         </context-group>
-        <target state="needs-translation">Edit permissions</target>
+        <target state="translated">Edita permisos</target>
       </trans-unit>
       <trans-unit id="4626030417479279989" datatype="html">
         <source>Consume Folder</source>
@@ -4285,7 +4285,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">73</context>
         </context-group>
-        <target state="needs-translation">Removal</target>
+        <target state="translated">Elimina</target>
       </trans-unit>
       <trans-unit id="3138206142174978019" datatype="html">
         <source>Create new workflow</source>
@@ -4518,7 +4518,7 @@
           <context context-type="sourcefile">src/app/components/common/input/permissions/permissions-form/permissions-form.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <target state="translated">Edita Permissos</target>
+        <target state="translated">Edita Permisos</target>
       </trans-unit>
       <trans-unit id="6035283612400841811" datatype="html">
         <source>Owner:</source>
@@ -4635,7 +4635,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-dialog/permissions-dialog.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
-        <target state="translated">Unifica amb permissos existents</target>
+        <target state="translated">Unifica amb permisos existents</target>
       </trans-unit>
       <trans-unit id="7062872617520618723" datatype="html">
         <source>Set permissions</source>
@@ -4651,7 +4651,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-dialog/permissions-dialog.component.ts</context>
           <context context-type="linenumber">33</context>
         </context-group>
-        <target state="translated">Edita Permissos per </target>
+        <target state="translated">Edita Permisos per </target>
       </trans-unit>
       <trans-unit id="347498040201588614" datatype="html">
         <source>Existing owner, user and group permissions will be merged with these settings.</source>
@@ -5063,7 +5063,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
-        <target state="needs-translation">Environment</target>
+        <target state="translated">Entorn</target>
       </trans-unit>
       <trans-unit id="5973078531069712831" datatype="html">
         <source>Paperless-ngx Version</source>
@@ -5071,7 +5071,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
-        <target state="needs-translation">Paperless-ngx Version</target>
+        <target state="translated">Versió de Paperless-ngx</target>
       </trans-unit>
       <trans-unit id="6269705781013540301" datatype="html">
         <source>Install Type</source>
@@ -5079,7 +5079,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
-        <target state="needs-translation">Install Type</target>
+        <target state="translated">Tipus d`instal·lació</target>
       </trans-unit>
       <trans-unit id="7962174670320694437" datatype="html">
         <source>Server OS</source>
@@ -5087,7 +5087,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
-        <target state="needs-translation">Server OS</target>
+        <target state="translated">SO del Servidor</target>
       </trans-unit>
       <trans-unit id="2903495470702110128" datatype="html">
         <source>Media Storage</source>
@@ -5095,7 +5095,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">28</context>
         </context-group>
-        <target state="needs-translation">Media Storage</target>
+        <target state="translated">Emmagatzematge de mitjans</target>
       </trans-unit>
       <trans-unit id="2571831784751497241" datatype="html">
         <source>available</source>
@@ -5111,7 +5111,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="needs-translation">total</target>
+        <target state="translated">total</target>
       </trans-unit>
       <trans-unit id="4198035112366277884" datatype="html">
         <source>Database</source>
@@ -5183,7 +5183,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">87</context>
         </context-group>
-        <target state="needs-translation">Redis Status</target>
+        <target state="translated">Estat de Redis</target>
       </trans-unit>
       <trans-unit id="5349496739889768589" datatype="html">
         <source>Celery Status</source>
@@ -5191,7 +5191,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">96</context>
         </context-group>
-        <target state="needs-translation">Celery Status</target>
+        <target state="translated">Estat de Celery</target>
       </trans-unit>
       <trans-unit id="31377277941774469" datatype="html">
         <source>Search Index</source>
@@ -5199,7 +5199,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">105</context>
         </context-group>
-        <target state="needs-translation">Search Index</target>
+        <target state="translated">Índex de Cerca</target>
       </trans-unit>
       <trans-unit id="4089509911694721896" datatype="html">
         <source>Last Updated</source>
@@ -5207,7 +5207,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">119</context>
         </context-group>
-        <target state="needs-translation">Last Updated</target>
+        <target state="translated">Darrera actualització</target>
       </trans-unit>
       <trans-unit id="46628344485199198" datatype="html">
         <source>Classifier</source>
@@ -5215,7 +5215,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">121</context>
         </context-group>
-        <target state="needs-translation">Classifier</target>
+        <target state="translated">Classificador</target>
       </trans-unit>
       <trans-unit id="6096684179126491743" datatype="html">
         <source>Last Trained</source>
@@ -5223,7 +5223,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">139</context>
         </context-group>
-        <target state="needs-translation">Last Trained</target>
+        <target state="translated">Darrer entrenament</target>
       </trans-unit>
       <trans-unit id="6732151329960766506" datatype="html">
         <source>Copy Raw Error</source>
@@ -5606,7 +5606,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target state="needs-translation">Split</target>
+        <target state="translated">Dividir</target>
       </trans-unit>
       <trans-unit id="1050269006235116171" datatype="html">
         <source>Rotate</source>
@@ -6046,7 +6046,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1050</context>
         </context-group>
-        <target state="needs-translation">Split confirm</target>
+        <target state="translated">Confirma divisió</target>
       </trans-unit>
       <trans-unit id="2805304563009985503" datatype="html">
         <source>This operation will split the selected document(s) into new documents.</source>
@@ -6054,7 +6054,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1051</context>
         </context-group>
-        <target state="needs-translation">This operation will split the selected document(s) into new documents.</target>
+        <target state="translated">Aquesta operació dividirà els documents seleccionats en documents nous.</target>
       </trans-unit>
       <trans-unit id="4158171846914923744" datatype="html">
         <source>Split operation will begin in the background.</source>
@@ -6062,7 +6062,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1066</context>
         </context-group>
-        <target state="needs-translation">Split operation will begin in the background.</target>
+        <target state="translated">L'operació de divisió començarà en segon pla.</target>
       </trans-unit>
       <trans-unit id="3235014591864339926" datatype="html">
         <source>Error executing split operation</source>
@@ -6070,7 +6070,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1075</context>
         </context-group>
-        <target state="needs-translation">Error executing split operation</target>
+        <target state="translated">Error executant operació de divisió</target>
       </trans-unit>
       <trans-unit id="6555329262222566158" datatype="html">
         <source>Rotate confirm</source>
@@ -6082,7 +6082,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">661</context>
         </context-group>
-        <target state="needs-translation">Rotate confirm</target>
+        <target state="translated">Confirma rotació</target>
       </trans-unit>
       <trans-unit id="857641176955257111" datatype="html">
         <source>This operation will permanently rotate the original version of the current document.</source>
@@ -6090,7 +6090,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1088</context>
         </context-group>
-        <target state="needs-translation">This operation will permanently rotate the original version of the current document.</target>
+        <target state="translated">Aquesta operació girarà permanentment la versió original del document actual.</target>
       </trans-unit>
       <trans-unit id="4233432423256408453" datatype="html">
         <source>This will alter the original copy.</source>
@@ -6102,7 +6102,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">663</context>
         </context-group>
-        <target state="needs-translation">This will alter the original copy.</target>
+        <target state="translated">Això alterarà la còpia original.</target>
       </trans-unit>
       <trans-unit id="4069543875319587651" datatype="html">
         <source>Rotation will begin in the background. Close and re-open the document after the operation has completed to see the changes.</source>
@@ -6110,7 +6110,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1105</context>
         </context-group>
-        <target state="needs-translation">Rotation will begin in the background. Close and re-open the document after the operation has completed to see the changes.</target>
+        <target state="translated">La rotació començarà en segon pla. Tanqueu i torneu a obrir el document un cop finalitzada l'operació per veure els canvis.</target>
       </trans-unit>
       <trans-unit id="2962674215361798818" datatype="html">
         <source>Error executing rotate operation</source>
@@ -6118,7 +6118,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1117</context>
         </context-group>
-        <target state="needs-translation">Error executing rotate operation</target>
+        <target state="translated">Error executant operació de rotació</target>
       </trans-unit>
       <trans-unit id="6857598786757174736" datatype="html">
         <source>Select:</source>
@@ -6222,7 +6222,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.html</context>
           <context context-type="linenumber">133</context>
         </context-group>
-        <target state="needs-translation">Use formatted filename</target>
+        <target state="translated">Utilitza nom arxiu formatat</target>
       </trans-unit>
       <trans-unit id="1215215387232313677" datatype="html">
         <source>Error executing bulk operation</source>
@@ -6420,7 +6420,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">662</context>
         </context-group>
-        <target state="needs-translation">This operation will permanently rotate the original version of <x id="PH" equiv-text="this.list.selected.size"/> document(s).</target>
+        <target state="translated">Aquesta operació girarà permanentment la versió original de <x id="PH" equiv-text="this.list.selected.size"/> document(s).</target>
       </trans-unit>
       <trans-unit id="7910756456450124185" datatype="html">
         <source>Merge confirm</source>
@@ -6436,7 +6436,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">683</context>
         </context-group>
-        <target state="needs-translation">This operation will merge <x id="PH" equiv-text="this.list.selected.size"/> selected documents into a new document.</target>
+        <target state="translated">Aquesta operació combinarà <x id="PH" equiv-text="this.list.selected.size"/> documents seleccionats en un document nou.</target>
       </trans-unit>
       <trans-unit id="7869008840945899895" datatype="html">
         <source>Merged document will be queued for consumption.</source>
@@ -6444,7 +6444,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">696</context>
         </context-group>
-        <target state="needs-translation">Merged document will be queued for consumption.</target>
+        <target state="translated">El document combinat es posarà en cua per al seu consum.</target>
       </trans-unit>
       <trans-unit id="8076495233090006322" datatype="html">
         <source>Filter by correspondent</source>
@@ -7416,7 +7416,7 @@
           <context context-type="sourcefile">src/app/components/manage/management-list/management-list.component.ts</context>
           <context context-type="linenumber">307</context>
         </context-group>
-        <target state="translated">Error actualitzant permissos</target>
+        <target state="translated">Error actualitzant permisos</target>
       </trans-unit>
       <trans-unit id="4010735610815226758" datatype="html">
         <source>Filter by:</source>

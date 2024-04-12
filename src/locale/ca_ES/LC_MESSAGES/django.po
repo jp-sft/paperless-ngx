@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-07 18:36-0700\n"
-"PO-Revision-Date: 2024-04-08 01:36\n"
+"PO-Revision-Date: 2024-04-11 12:08\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -685,7 +685,7 @@ msgstr "Assignació"
 
 #: documents/models.py:1006
 msgid "Removal"
-msgstr ""
+msgstr "Elimina"
 
 #: documents/models.py:1010
 msgid "Workflow Action Type"
@@ -721,19 +721,19 @@ msgstr "assigna aquest propietari"
 
 #: documents/models.py:1073
 msgid "grant view permissions to these users"
-msgstr "dona permissos visualització a aquests usuaris"
+msgstr "dona permisos visualització a aquests usuaris"
 
 #: documents/models.py:1080
 msgid "grant view permissions to these groups"
-msgstr "dóna permissos de visionat a aquests grups"
+msgstr "dóna permisos de visionat a aquests grups"
 
 #: documents/models.py:1087
 msgid "grant change permissions to these users"
-msgstr "dóna permissos d'edició a aquests usuaris"
+msgstr "dóna permisos d'edició a aquests usuaris"
 
 #: documents/models.py:1094
 msgid "grant change permissions to these groups"
-msgstr "dóna permissos d'edició a aquests grups"
+msgstr "dóna permisos d'edició a aquests grups"
 
 #: documents/models.py:1101
 msgid "assign these custom fields"
@@ -741,71 +741,71 @@ msgstr "assigna aquests camps personalitzats"
 
 #: documents/models.py:1108
 msgid "remove these tag(s)"
-msgstr ""
+msgstr "elimina aquesta etiqueta(es)"
 
 #: documents/models.py:1113
 msgid "remove all tags"
-msgstr ""
+msgstr "elimina totes les etiquetes"
 
 #: documents/models.py:1120
 msgid "remove these document type(s)"
-msgstr ""
+msgstr "elimina aquest(s) tipus de document"
 
 #: documents/models.py:1125
 msgid "remove all document types"
-msgstr ""
+msgstr "elimina tots els tipus de document"
 
 #: documents/models.py:1132
 msgid "remove these correspondent(s)"
-msgstr ""
+msgstr "suprimeix aquest(s) corresponsal(s)"
 
 #: documents/models.py:1137
 msgid "remove all correspondents"
-msgstr ""
+msgstr "elimina tots els corresponsals"
 
 #: documents/models.py:1144
 msgid "remove these storage path(s)"
-msgstr ""
+msgstr "elimina aquesta(es) ruta d'emmagatzemament"
 
 #: documents/models.py:1149
 msgid "remove all storage paths"
-msgstr ""
+msgstr "elimina totes les rutes d'emmagatzemament"
 
 #: documents/models.py:1156
 msgid "remove these owner(s)"
-msgstr ""
+msgstr "elimina aquest(s) propietari(s)"
 
 #: documents/models.py:1161
 msgid "remove all owners"
-msgstr ""
+msgstr "elimina tots els propietaris"
 
 #: documents/models.py:1168
 msgid "remove view permissions for these users"
-msgstr ""
+msgstr "treu permisos visualització a aquests usuaris"
 
 #: documents/models.py:1175
 msgid "remove view permissions for these groups"
-msgstr ""
+msgstr "treu permisos de visualització a aquests grups"
 
 #: documents/models.py:1182
 msgid "remove change permissions for these users"
-msgstr ""
+msgstr "treu permisos d'edició a aquests usuaris"
 
 #: documents/models.py:1189
 msgid "remove change permissions for these groups"
-msgstr ""
+msgstr "treu permisos d'edició a aquests grups"
 
 #: documents/models.py:1194
 msgid "remove all permissions"
-msgstr ""
+msgstr "treu tots els permisos"
 
 #: documents/models.py:1201
 msgid "remove these custom fields"
-msgstr ""
+msgstr "elimina aquests camps personalitzats"
 
 #: documents/models.py:1206
 msgid "remove all custom fields"
-msgstr ""
+msgstr "elimina tots els camps personalitzats\n"
 
 #: documents/models.py:1210
 msgid "workflow action"
@@ -852,13 +852,14 @@ msgstr "Variable detectada invàlida."
 #: documents/templates/account/email/base_message.txt:1
 #, python-format
 msgid "Hello from %(site_name)s!"
-msgstr ""
+msgstr "Hola des de %(site_name)s!"
 
 #: documents/templates/account/email/base_message.txt:5
 #, python-format
 msgid "Thank you for using %(site_name)s!\n"
 "%(site_domain)s"
-msgstr ""
+msgstr "Gràcies per fer servir %(site_name)s!\n"
+"%(site_domain)s"
 
 #: documents/templates/account/login.html:5
 msgid "Paperless-ngx sign in"
@@ -871,7 +872,7 @@ msgstr "Siusplau valida't."
 #: documents/templates/account/login.html:12
 #, python-format
 msgid "Don't have an account yet? <a href=\"%(signup_url)s\">Sign up</a>"
-msgstr ""
+msgstr "Encara no tens un compte? <a href=\"%(signup_url)s\">Registra't</a>"
 
 #: documents/templates/account/login.html:19
 #: documents/templates/account/signup.html:15
@@ -968,21 +969,21 @@ msgstr "Contrasenya enviada. Pots iniciar <a href=\"%(login_url)s\">sessió</a>"
 
 #: documents/templates/account/signup.html:5
 msgid "Paperless-ngx sign up"
-msgstr ""
+msgstr "Registra't a Paperless-ngx"
 
 #: documents/templates/account/signup.html:10
 #, python-format
 msgid "Already have an account? <a href=\"%(login_url)s\">Sign in</a>"
-msgstr ""
+msgstr "Ja tens un compte? <a href=\"%(login_url)s\">Connecta't</a>"
 
 #: documents/templates/account/signup.html:16
 #: documents/templates/socialaccount/signup.html:14
 msgid "Email (optional)"
-msgstr ""
+msgstr "Correu (opcional)"
 
 #: documents/templates/account/signup.html:18
 msgid "Password (again)"
-msgstr ""
+msgstr "Contrasenya (altre cop)"
 
 #: documents/templates/account/signup.html:36
 #: documents/templates/socialaccount/signup.html:27

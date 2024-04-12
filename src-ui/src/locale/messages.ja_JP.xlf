@@ -6090,7 +6090,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1088</context>
         </context-group>
-        <target state="needs-translation">This operation will permanently rotate the original version of the current document.</target>
+        <target state="translated">この操作により、現在のドキュメントの元のバージョンが恒久的に回転します。</target>
       </trans-unit>
       <trans-unit id="4233432423256408453" datatype="html">
         <source>This will alter the original copy.</source>
@@ -6292,7 +6292,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">350</context>
         </context-group>
-        <target state="translated">この操作により、選択中の <x id="PH_1" equiv-text="this.list.selected.size"/> ドキュメントからタグ "<x id="PH" equiv-text="tag.name"/>" を削除します。</target>
+        <target state="translated">この操作により、選択中の <x id="PH_1" equiv-text="this.list.selected.size"/> ドキュメントからタグ "<x id="PH" equiv-text="tag.name"/>" が削除されます。</target>
       </trans-unit>
       <trans-unit id="3819792277998068944" datatype="html">
         <source>This operation will remove the tags <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> from <x id="PH_1" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -6300,7 +6300,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">355,357</context>
         </context-group>
-        <target state="translated">この操作により、選択中の <x id="PH_1" equiv-text="this.list.selected.size"/> ドキュメントからタグ <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> を削除します。</target>
+        <target state="translated">この操作により、選択中の <x id="PH_1" equiv-text="this.list.selected.size"/> ドキュメントからタグ <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> が削除されます。</target>
       </trans-unit>
       <trans-unit id="2739066218579571288" datatype="html">
         <source>This operation will add the tags <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> and remove the tags <x id="PH_1" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> on <x id="PH_2" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -6420,7 +6420,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">662</context>
         </context-group>
-        <target state="needs-translation">This operation will permanently rotate the original version of <x id="PH" equiv-text="this.list.selected.size"/> document(s).</target>
+        <target state="translated">この操作により、<x id="PH" equiv-text="this.list.selected.size"/> ドキュメントの元のバージョンが恒久的に回転します。</target>
       </trans-unit>
       <trans-unit id="7910756456450124185" datatype="html">
         <source>Merge confirm</source>

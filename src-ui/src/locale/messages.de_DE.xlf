@@ -6084,13 +6084,13 @@
         </context-group>
         <target state="final">Rotieren bestätigen</target>
       </trans-unit>
-      <trans-unit id="857641176955257111" datatype="html">
+      <trans-unit id="857641176955257111" datatype="html" approved="yes">
         <source>This operation will permanently rotate the original version of the current document.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1088</context>
         </context-group>
-        <target state="needs-translation">This operation will permanently rotate the original version of the current document.</target>
+        <target state="final">Dieser Vorgang wird die Originalversion des aktuellen Dokuments permanent rotieren.</target>
       </trans-unit>
       <trans-unit id="4233432423256408453" datatype="html" approved="yes">
         <source>This will alter the original copy.</source>
@@ -6414,13 +6414,13 @@
         </context-group>
         <target state="final">Diese Aktion wird die Texterkennung für <x id="PH" equiv-text="this.list.selected.size"/> ausgewählte(s) Dokument(e) wiederholen und dauerhaft überschreiben.</target>
       </trans-unit>
-      <trans-unit id="6390006284731990222" datatype="html">
+      <trans-unit id="6390006284731990222" datatype="html" approved="yes">
         <source>This operation will permanently rotate the original version of <x id="PH" equiv-text="this.list.selected.size"/> document(s).</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">662</context>
         </context-group>
-        <target state="needs-translation">This operation will permanently rotate the original version of <x id="PH" equiv-text="this.list.selected.size"/> document(s).</target>
+        <target state="final">Dieser Vorgang wird die Originalversion von <x id="PH" equiv-text="this.list.selected.size"/> Dokument(en) permanent rotieren.</target>
       </trans-unit>
       <trans-unit id="7910756456450124185" datatype="html" approved="yes">
         <source>Merge confirm</source>
