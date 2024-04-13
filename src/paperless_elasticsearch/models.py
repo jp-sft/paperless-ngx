@@ -136,7 +136,10 @@ class Document(ESDocument):
             return related_instance.documents.all()
 
     def prepare_language(self, instance):
-        if "fr" in instance.filename.lower():
+        filename = instance.filename
+        if not filename:
+            return None
+        if "fr" in filename.lower():
             return "Français"
         if "ar" in instance.filename.lower():
             return "العربية"
