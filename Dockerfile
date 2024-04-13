@@ -250,6 +250,8 @@ COPY --from=compile-frontend --chown=1000:1000 /src/src/documents/static/fronten
 
 # add users, setup scripts
 # Mount the compiled frontend to expected location
+ARG CERTS_DIR="/usr/src/paperless/certs"
+
 RUN set -eux \
   && echo "Setting up user/group" \
     && addgroup --gid 1000 paperless \
@@ -259,6 +261,7 @@ RUN set -eux \
     && mkdir --parents --verbose /usr/src/paperless/media \
     && mkdir --parents --verbose /usr/src/paperless/consume \
     && mkdir --parents --verbose /usr/src/paperless/export \
+    && mkdir --parents --verbose "${CERTS_DIR}" \
   && echo "Adjusting all permissions" \
     && chown --from root:root --changes --recursive paperless:paperless /usr/src/paperless \
   && echo "Collecting static files" \
