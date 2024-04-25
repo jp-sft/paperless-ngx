@@ -76,7 +76,7 @@
 </pngx-page-header>
 
 <div class="row">
-  <div class="col-md-6 col-xl-4 mb-4">
+  <div class="col-md-8 col-xl-8 mb-4">
 
     <form [formGroup]='documentForm' (ngSubmit)="save()">
 
@@ -197,7 +197,6 @@
           <a ngbNavLink i18n>Content</a>
           <ng-template ngbNavContent>
             <div>
-              <quill-editor></quill-editor>
               <textarea class="form-control" id="content" rows="20" formControlName='content' [class.rtl]="isRTL"></textarea>
             </div>
           </ng-template>
@@ -303,7 +302,7 @@
     </form>
   </div>
 
-  <div class="col-md-6 col-xl-8 mb-3 d-none d-md-block position-relative" #pdfPreview>
+  <div class="col-md-4 col-xl-4 mb-3 d-none d-md-block position-relative" #pdfPreview>
     <ng-container *ngTemplateOutlet="previewContent"></ng-container>
   </div>
 
