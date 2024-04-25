@@ -35,6 +35,7 @@
     "ngx-quill": "^25.3.2",
     "ngx-ui-tour-ng-bootstrap": "^14.0.2",
     "pdfjs-dist": "^3.11.174",
+    "quill": "^2.0.0",
     "rxjs": "^7.8.1",
     "tslib": "^2.6.2",
     "uuid": "^9.0.1",
