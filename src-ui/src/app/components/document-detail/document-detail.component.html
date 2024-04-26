@@ -197,7 +197,8 @@
           <a ngbNavLink i18n>Content</a>
           <ng-template ngbNavContent>
             <div>
-              <textarea class="form-control" id="content" rows="20" formControlName='content' [class.rtl]="isRTL"></textarea>
+              <quill-editor [sanitize]="true" formControlName='content' format="html" theme="snow" [class.rtl]="isRTL"></quill-editor>
+              <!-- <textarea class="form-control" id="content" rows="20" formControlName='content' [class.rtl]="isRTL"></textarea> -->
             </div>
           </ng-template>
         </li>
