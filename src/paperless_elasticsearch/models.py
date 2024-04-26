@@ -6,7 +6,7 @@ from django_elasticsearch_dsl import Document as ESDocument
 from django_elasticsearch_dsl import fields as es_fields
 from django_elasticsearch_dsl.registries import registry
 from elasticsearch_dsl import analyzer
-from elasticsearch_dsl import token_filter
+from elasticsearch_dsl import token_filter, char_filter
 
 from documents import models as doc_models
 
@@ -35,12 +35,12 @@ english_stop = token_filter(
     stopwords="_english_",
     ignore_case=True,
 )
-html_strip = token_filter("html_strip", "html_strip")
 search_analyzer = analyzer(
     "search_analyzer",
     type="custom",
     tokenizer="standard",
-    filter=["lowercase", french_stop, arabic_stop, english_stop, html_strip],
+    filter=["lowercase", french_stop, arabic_stop, english_stop],
+    char_filter=[char_filter("html_strip", "html_strip")],
 )
 default_analyzer = analyzer(
     "default_analyzer",
