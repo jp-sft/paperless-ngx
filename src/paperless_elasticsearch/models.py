@@ -35,11 +35,12 @@ english_stop = token_filter(
     stopwords="_english_",
     ignore_case=True,
 )
+html_strip = token_filter("html_strip", "html_strip")
 search_analyzer = analyzer(
     "search_analyzer",
     type="custom",
     tokenizer="standard",
-    filter=["lowercase", french_stop, arabic_stop, english_stop],
+    filter=["lowercase", french_stop, arabic_stop, english_stop, html_strip],
 )
 default_analyzer = analyzer(
     "default_analyzer",
