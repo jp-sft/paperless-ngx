@@ -6,7 +6,8 @@ from django_elasticsearch_dsl import Document as ESDocument
 from django_elasticsearch_dsl import fields as es_fields
 from django_elasticsearch_dsl.registries import registry
 from elasticsearch_dsl import analyzer
-from elasticsearch_dsl import token_filter, char_filter
+from elasticsearch_dsl import char_filter
+from elasticsearch_dsl import token_filter
 
 from documents import models as doc_models
 
@@ -54,7 +55,6 @@ default_analyzer = analyzer(
 
 @registry.register_document
 class Document(ESDocument):
-
     title = es_fields.TextField(
         attr="title",
         required=False,
@@ -94,6 +94,13 @@ class Document(ESDocument):
         analyzer=search_analyzer,
     )
     suggest = es_fields.Completion(analyzer=ascii_fold)
+    link_version = es_fields.NestedField(
+        properties={
+            "id": es_fields.KeywordField(),
+            "language": es_fields.KeywordField(),
+        },
+        multi=True,
+    )
     language = es_fields.KeywordField()
     category = es_fields.TextField(
         term_vector="with_positions_offsets",
@@ -125,7 +132,6 @@ class Document(ESDocument):
         return super().clean()
 
     def get_queryset(self):
-
         return super().get_queryset()
 
     def get_instances_from_related(self, related_instance):
