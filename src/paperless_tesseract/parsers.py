@@ -1,3 +1,4 @@
+from hmac import new
 import os
 import re
 import tempfile
@@ -446,6 +447,9 @@ class RasterisedDocumentParser(DocumentParser):
                 )
                 self.text = ""
 
+        # For formating html
+        self.text = html_beautify(self.text)
+
 
 def post_process_text(text):
     if not text:
@@ -459,3 +463,18 @@ def post_process_text(text):
     # replace \0 prevents issues with saving to postgres.
     # text may contain \0 when this character is present in PDF files.
     return no_trailing_whitespace.strip().replace("\0", " ")
+
+
+def html_beautify(text):
+    if not text:
+        return None
+
+    # threat one or more newlines as a paragraph and newlines as a line break
+    # this is a simple way to convert text to HTML
+    # newlines are replaced with <br> and paragraphs with <p>
+    # this is a simple way to convert text to HTML
+    # newlines are replaced with <br> and paragraphs with <p>
+    text = re.sub(r"(\n{2,})", "</p><p>", text)
+    text = re.sub(r"(\n)", "<br>", text)
+
+    return f"<p>{text}</p>"

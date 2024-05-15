@@ -213,6 +213,7 @@ import {
   x,
   xLg,
 } from 'ngx-bootstrap-icons'
+import { QuillModule } from 'ngx-quill'
 
 const icons = {
   airplane,
@@ -489,6 +490,7 @@ function initializeApp(settings: SettingsService) {
     DragDropModule,
     NgxBootstrapIconsModule.pick(icons),
     NgxFilesizeModule,
+    QuillModule.forRoot(),
   ],
   providers: [
     {
