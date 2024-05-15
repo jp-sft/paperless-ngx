@@ -170,8 +170,7 @@ def _parse_beat_schedule() -> dict:
             "task": "paperless_mail.tasks.process_mail_accounts",
             "options": {
                 # 1 minute before default schedule sends again
-                "expires": 9.0
-                * 60.0,
+                "expires": 9.0 * 60.0,
             },
         },
         {
@@ -182,8 +181,7 @@ def _parse_beat_schedule() -> dict:
             "task": "documents.tasks.train_classifier",
             "options": {
                 # 1 minute before default schedule sends again
-                "expires": 59.0
-                * 60.0,
+                "expires": 59.0 * 60.0,
             },
         },
         {
@@ -194,9 +192,7 @@ def _parse_beat_schedule() -> dict:
             "task": "documents.tasks.index_optimize",
             "options": {
                 # 1 hour before default schedule sends again
-                "expires": 23.0
-                * 60.0
-                * 60.0,
+                "expires": 23.0 * 60.0 * 60.0,
             },
         },
         {
@@ -207,9 +203,7 @@ def _parse_beat_schedule() -> dict:
             "task": "documents.tasks.sanity_check",
             "options": {
                 # 1 hour before default schedule sends again
-                "expires": ((7.0 * 24.0) - 1.0)
-                * 60.0
-                * 60.0,
+                "expires": ((7.0 * 24.0) - 1.0) * 60.0 * 60.0,
             },
         },
     ]
@@ -818,9 +812,9 @@ CACHES = {
 }
 
 if DEBUG and os.getenv("PAPERLESS_CACHE_BACKEND") is None:
-    CACHES["default"][
-        "BACKEND"
-    ] = "django.core.cache.backends.locmem.LocMemCache"  # pragma: no cover
+    CACHES["default"]["BACKEND"] = (
+        "django.core.cache.backends.locmem.LocMemCache"  # pragma: no cover
+    )
 
 
 def default_threads_per_worker(task_workers) -> int:

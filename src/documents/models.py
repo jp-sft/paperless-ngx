@@ -274,6 +274,13 @@ class Document(ModelWithOwner):
         ),
     )
 
+    link_version = models.ForeignKey(
+        "self", on_delete=models.CASCADE, null=True, blank=True
+    )
+    language = models.CharField(
+        max_length=2, choices=[("fr", "Français"), ("ar", "Arabe")], default="fr"
+    )
+
     class Meta:
         ordering = ("-created",)
         verbose_name = _("document")

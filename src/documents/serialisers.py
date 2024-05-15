@@ -91,7 +91,9 @@ class MatchingModelSerializer(serializers.ModelSerializer):
         owner = (
             data["owner"]
             if "owner" in data
-            else self.user if hasattr(self, "user") else None
+            else self.user
+            if hasattr(self, "user")
+            else None
         )
         pk = self.instance.pk if hasattr(self.instance, "pk") else None
         if ("name" in data or "owner" in data) and self.Meta.model.objects.filter(
@@ -679,6 +681,9 @@ class DocumentSerializer(
         required=False,
     )
 
+    link_version = serializers.PrimaryKeyRelatedField(read_only=True)
+    language = serializers.CharField(read_only=True)
+
     def get_original_file_name(self, obj):
         return obj.original_filename
 
@@ -793,6 +798,8 @@ class DocumentSerializer(
             "notes",
             "custom_fields",
             "remove_inbox_tags",
+            "language",
+            "link_version",
         )
 
 
