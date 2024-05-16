@@ -13,6 +13,10 @@ ELASTICSEARCH_DSL = {
             os.environ.get("PAPERLESS_ELASTICSEARCH_PASSWORD", "changeme"),
         ),
         "ca_certs": os.environ.get("PAPERLESS_ELASTICSEARCH_CA_CERTS", None),
+        "ssl_assert_fingerprint": os.environ.get(
+            "PAPERLESS_ELASTICSEARCH_CERT_FINGERPRINT",
+            None,
+        ),
     },
 }
 ELASTICSEARCH_DSL_AUTOSYNC = True

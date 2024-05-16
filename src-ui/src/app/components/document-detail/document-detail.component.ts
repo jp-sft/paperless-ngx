@@ -138,6 +138,8 @@ export class DocumentDetailComponent
 
   documentForm: FormGroup = new FormGroup({
     title: new FormControl(''),
+    language: new FormControl(''),
+    link_version: new FormControl(),
     content: new FormControl(''),
     created_date: new FormControl(),
     correspondent: new FormControl(),

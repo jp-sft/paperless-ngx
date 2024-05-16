@@ -19,6 +19,8 @@ class DocumentMetadataOverrides:
 
     filename: Optional[str] = None
     title: Optional[str] = None
+    language: Optional[str] = None
+    link_version_id: Optional[int] = None
     correspondent_id: Optional[int] = None
     document_type_id: Optional[int] = None
     tag_ids: Optional[list[int]] = None
@@ -42,6 +44,10 @@ class DocumentMetadataOverrides:
         # only if empty
         if other.title is not None:
             self.title = other.title
+        if other.language is not None:
+            self.language = other.language
+        if other.link_version_id is not None:
+            self.link_version_id = other.link_version_id
         if other.correspondent_id is not None:
             self.correspondent_id = other.correspondent_id
         if other.document_type_id is not None:
@@ -97,6 +103,9 @@ class DocumentMetadataOverrides:
         """
         overrides = DocumentMetadataOverrides()
         overrides.title = doc.title
+        overrides.language = doc.language
+
+        overrides.linked_version_id = doc.link_version.id if doc.link_version else None
         overrides.correspondent_id = doc.correspondent.id if doc.correspondent else None
         overrides.document_type_id = doc.document_type.id if doc.document_type else None
         overrides.storage_path_id = doc.storage_path.id if doc.storage_path else None

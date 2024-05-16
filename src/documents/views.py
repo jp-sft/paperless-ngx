@@ -982,13 +982,17 @@ class PostDocumentView(GenericAPIView):
     def post(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
+        import pdb
 
+        pdb.set_trace()
         doc_name, doc_data = serializer.validated_data.get("document")
         correspondent_id = serializer.validated_data.get("correspondent")
         document_type_id = serializer.validated_data.get("document_type")
         storage_path_id = serializer.validated_data.get("storage_path")
         tag_ids = serializer.validated_data.get("tags")
         title = serializer.validated_data.get("title")
+        language = serializer.validated_data.get("language")
+        link_version_id = serializer.validated_data.get("link_version")
         created = serializer.validated_data.get("created")
         archive_serial_number = serializer.validated_data.get("archive_serial_number")
         custom_field_ids = serializer.validated_data.get("custom_fields")
@@ -1012,6 +1016,8 @@ class PostDocumentView(GenericAPIView):
         input_doc_overrides = DocumentMetadataOverrides(
             filename=doc_name,
             title=title,
+            language=language,
+            link_version_id=link_version_id,
             correspondent_id=correspondent_id,
             document_type_id=document_type_id,
             storage_path_id=storage_path_id,
@@ -1312,9 +1318,9 @@ class UiSettingsView(GenericAPIView):
         if hasattr(user, "ui_settings"):
             ui_settings = user.ui_settings.settings
         if "update_checking" in ui_settings:
-            ui_settings["update_checking"][
-                "backend_setting"
-            ] = settings.ENABLE_UPDATE_CHECK
+            ui_settings["update_checking"]["backend_setting"] = (
+                settings.ENABLE_UPDATE_CHECK
+            )
         else:
             ui_settings["update_checking"] = {
                 "backend_setting": settings.ENABLE_UPDATE_CHECK,
